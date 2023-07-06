@@ -10,7 +10,7 @@ from HumBugDB.runTorch import train_model as train_model_binary
 from HumBugDB.runTorchMultiClass import ResnetDropoutFull as ResnetDropoutMulti
 from HumBugDB.runTorchMultiClass import ResnetFull as ResnetMulti
 from HumBugDB.runTorchMultiClass import train_model as train_model_multi
-
+#..
 #选择模型
 def create_model(model_name, num_classes):
     if model_name == "resent50":
@@ -228,3 +228,4 @@ if __name__ == "__main__":
     vars(args).popitem() #删除字典末尾元素
 
     run_model_training(**vars(args), weights=weights)
+#     testgit
