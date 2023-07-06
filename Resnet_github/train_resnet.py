@@ -228,4 +228,4 @@ if __name__ == "__main__":
     vars(args).popitem() #删除字典末尾元素
 
     run_model_training(**vars(args), weights=weights)
-#     testgit
+#     fenzhi
